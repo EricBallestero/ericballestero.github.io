@@ -1,7 +1,7 @@
 ---
 title: "Measuring Scattering Properties of a 3D-Printed Quadratic Residue Metadiffuser"
 collection: talks
-type: "Dissemination Talk, DENORMS Final Event & Dissemination"
+type: "Dissemination Talk, COST-DENORMS Final Event & Dissemination"
 permalink: /talks/DENORMS_Final_2020
 venue: "University of Coimbra"
 date: 18-02-2020
