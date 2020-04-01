@@ -27,6 +27,6 @@ var addressPoints = [
   [
     "Xativa, Spain",
     38.9900,
-    0.5235
+    -0.5235
   ]
 ];
