@@ -5,13 +5,17 @@ main:
 
   - title: "Talks"
     url: /talks/    
+    
+  - title: "Map"
+    url: /talkmap.html
 
   - title: "Teaching"
     url: /teaching/    
     
-  - title: "Portfolio"
+  - title: "Pictures"
     url: /portfolio/
     
   - title: "CV"
     url: /cv/
    
+#/talkmap.html
