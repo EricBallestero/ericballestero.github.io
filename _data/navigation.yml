@@ -7,7 +7,7 @@ main:
     url: /talks/    
     
   - title: "Travel Map"
-    url: /talksmap.html
+    url: /talkmap.html
 
   - title: "Teaching"
     url: /teaching/    
