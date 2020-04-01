@@ -1,0 +1,86 @@
+<html>
+  <head>
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <link href='jvmap/jquery-jvectormap-2.0.3.css' media='screen' rel='stylesheet' type='text/css'/>
+    <script type='text/javascript' src='http://code.jquery.com/jquery-3.3.1.min.js'></script>
+    <script src='jvmap/jquery-jvectormap-2.0.3.min.js'></script>
+    <script src='jvmap/jquery-jvectormap-world-mill.js'></script>
+    
+    <script type='text/javascript'>
+	<!-- ADD YOUR VISITED COUNTRIES HERE -->
+	var countries = {'BE':'#0069C0','NL':'#0069C0','FR':'#0069C0','DE':'#0069C0','ES':'#0069C0',
+			'PT':'#0069C0','GB':'#0069C0','CH':'#0069C0','JP':'#0069C0','TH':'#0069C0',
+			'IT':'#0069C0','FI':'#0069C0','SE':'#0069C0','IL':'#0069C0','DK':'#0069C0',
+			'CZ':'#0069C0','AT':'#0069C0', 'AU':'#0069C0'};
+	<!-- ADD YOUR VISITED CITIES AND THEIR COORDINATES HERE -->
+        var markersVar = [
+			<!-- WORK RELATED VISITS -->
+			{latLng: [-31.95, 115.86], name: 'Perth - ACCV2018 Conference', style: {fill: '#f5f779', r:4}},
+		
+			{latLng: [32.66, -16.92], name: 'Funchal - VISAPP2018 Conference', style: {fill: '#f5f779', r:4}},
+
+			{latLng: [31.77, 35.21], name: 'Jeruzalem - WCCV2017 Winter School', style: {fill: '#f5f779', r:4}},
+			{latLng: [41.16, -8.63], name: 'Porto - VISAPP2017 Conference', style: {fill: '#f5f779', r:4}},
+
+			{latLng: [41.90, 12.49], name: 'Rome - VISAPP2016 Conference', style: {fill: '#f5f779', r:4}},
+			{latLng: [65.01, 25.46], name: 'Oulu - IPTA2016 Conference', style: {fill: '#f5f779', r:4}},
+			{latLng: [52.22, 6.89], name: 'Enschede - GEOBIA2016 Conference', style: {fill: '#f5f779', r:4}},
+
+			{latLng: [35.65, 139.84], name: 'Tokyo - MVA2015 Conference', style: {fill: '#f5f779', r:4}},
+			{latLng: [45.46, 9.19], name: 'Milan - EMBC2015 Conference', style: {fill: '#f5f779', r:4}},
+			{latLng: [51.75, -1.26], name: 'Oxford - LERU2015 Summer School', style: {fill: '#f5f779', r:4}},
+
+			{latLng: [38.72, -9.14], name: 'Lisbon - VISAPP2014 Conference', style: {fill: '#f5f779', r:4}},
+
+			{latLng: [53.48, -2.24], name: 'Manchester - BMVA2013 Summer School', style: {fill: '#f5f779', r:4}},
+			{latLng: [41.38, 2.17], name: 'Barcelona - VISAPP2013 Conference', style: {fill: '#f5f779', r:4}},
+
+			<!-- SCOUTS RELATED VISITS -->
+			{latLng: [13.75, 100.50], name: 'Bangkok - 20th Jamboree', style: {fill: '#36b201', r:4}},
+			{latLng: [18.71, 98.98], name: 'Changmai - 20th Jamboree', style: {fill: '#36b201', r:4}},
+			{latLng: [12.67, 100.89], name: 'Sattahip - 20th Jamboree', style: {fill: '#36b201', r:4}},
+			{latLng: [55.98, 14.27], name: 'Rinkaby - 22th Jamboree', style: {fill: '#36b201', r:4}},
+			{latLng: [55.60,13], name: 'Malmo - 22th Jamboree', style: {fill: '#36b201', r:4}},
+			{latLng: [55.67, 12.57], name: 'Copenhagen - 22th Jamboree', style: {fill: '#36b201', r:4}},
+
+			<!-- HOLIDAY RELATED VISITS -->
+			{latLng: [43.77, 11.25], name: 'Firenze - Citytrip', style: {fill: '#f989f6', r:4}},
+			{latLng: [43.47, 11.04], name: 'San Gimignano', style: {fill: '#f989f6', r:4}},
+			{latLng: [37.98, -0.68], name: 'Torrevieja', style: {fill: '#f989f6', r:4}},
+			{latLng: [43.53, 5.45], name: 'Aix En Provence', style: {fill: '#f989f6', r:4}},
+			{latLng: [50.07, 14.44], name: 'Prague - Citytrip', style: {fill: '#f989f6', r:4}},	
+			{latLng: [59.33, 18.07], name: 'Stockholm - Citytrip', style: {fill: '#f989f6', r:4}},	
+			{latLng: [48.85, 2.36], name: 'Paris - Citytrip', style: {fill: '#f989f6', r:4}},		
+		     ];
+
+        $(function(){
+		var map = new jvm.Map({
+			container: $('#vmap'),
+			map: 'world_mill',
+			backgroundColor: '#ffffff',
+			regionsSelectable: false,
+			zoomButtons : false,
+			regionStyle: {
+				initial: {
+					fill: '#6EC6FF'
+				},
+				hover: {
+					fill: '#0095EB',
+					'fill-opacity': 0.3
+				},
+			},
+			series: {
+				regions: [{
+					values: countries,
+					attribute: 'fill'
+				}]
+			},
+			markers: markersVar,
+		});
+	});
+    </script>
+  </head>
+  <body style='background-color: #ffffff'>
+    <div id='vmap' style='width: 100%; height: 100%;'></div>
+  </body>
+</html>
