@@ -1,5 +1,5 @@
 ---
-title: "Experimental Validation of a 3D-printed Quadratic Residue Metadiffuser"
+title: "Measuring Scattering Properties of a 3D-Printed Quadratic Residue Metadiffuser"
 collection: talks
 type: "Conference Talk"
 permalink: /talks/DENORMS_Final_2020
