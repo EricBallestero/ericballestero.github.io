@@ -1,0 +1,11 @@
+---
+title: "Laboratory Assistant"
+collection: teaching
+type: "GDip/MSc courses"
+permalink: /teaching/LabAssistant_2017
+venue: "London South Bank University, School of Built Environment & Architecture"
+date: 09-2017
+location: "London, U.K."
+---
+
+Teaching assistance to laboratories for IOAG Dip and MSc students, eg., room acoustics, vibration control, student projects.
