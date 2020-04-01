@@ -1,7 +1,7 @@
 ---
 title: "Laboratory Assistant"
 collection: teaching
-type: "GDip/MSc courses"
+type: "GDip/MSc Laboratories"
 permalink: /teaching/LabAssistant_2017
 venue: "London South Bank University, School of Built Environment & Architecture"
 date: 01-09-2017
