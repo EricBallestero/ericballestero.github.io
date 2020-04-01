@@ -4,7 +4,7 @@ collection: talks
 type: "Conference Talk, 1st Symposium on Acoustic Metamaterials"
 permalink: /talks/SAM2018_Xativa
 venue: "Casa de la Cultura"
-date: 09-10-2019
+date: 07-11-2018
 location: "Xativa, Spain"
 ---
 
