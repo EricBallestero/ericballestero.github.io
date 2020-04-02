@@ -11,9 +11,11 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* HND in Sound Design and Audio Engineering, ADAMS 3IS, Bordeaux, 2012.
+* Spe. Module in Building Acoustics, Conservatoire des Arts & Metiers, Paris, 2014.
+* GDip in Acoustics & Noise Control, Institute of Acoustics, 2015.
+* MSc in Architectural & Environmental Acoustics, London South Bank University, 2017.
+* Ph.D in Auditorium & Physical Acoustics, London South Bank University, 2021 (expected)
 
 Work experience
 ======
