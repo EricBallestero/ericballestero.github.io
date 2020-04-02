@@ -12,10 +12,10 @@ main:
   - title: "Teaching"
     url: /teaching/    
     
-  - title: "Public Outreach"
-    url: /publicoutreach/
+#  - title: "Public Outreach"
+#    url: /publicoutreach/
     
-  - title: "Pictures"
+  - title: "Public Outreach"
     url: /portfolio/
     
   - title: "CV"
