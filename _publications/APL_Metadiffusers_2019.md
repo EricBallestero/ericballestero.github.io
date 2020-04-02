@@ -1,5 +1,5 @@
 ---
-title: "Experimental validation of deep-subwavelength diffusion by acoustic metadiffusers"
+title: "Experimental Validation of Deep-Subwavelength Diffusion by Acoustic Metadiffusers"
 collection: publications
 permalink: /publication/APL_Metadiffusers_2019
 excerpt: 'The aim of this work is to experimentally validate the concept of metadiffusers from the scattering measurements of a specific metadiffuser design, i.e., a quadratic residue metadiffuser. The experimental results reported are in close agreement with analytical and numerical predictions, therefore showing the potential of metadiffusers for controlling sound diffusion at very small scales.'
