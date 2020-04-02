@@ -14,7 +14,7 @@ Education
 * Tech. Level in Electrical Engineering, Lycee Alfred Kaslter, 2010.
 * HND in Sound Design and Audio Engineering, ADAMS 3IS, 2012.
 * Spe. Module in Building Acoustics, National Conservatory of Arts & Crafts, Paris, 2014.
-* Verified Certificate of Acknowledgement in Astrophysics, Polytechnic School of Lausanne, 2015.
+* Verified Certificate of Acknowledgement in Astrophysics, Federal Polytechnic School of Lausanne, 2015.
 * GDip in Acoustics & Noise Control, Institute of Acoustics, 2015.
 * MSc in Architectural & Environmental Acoustics, London South Bank University, 2017.
 * Ph.D in Auditorium & Physical Acoustics, London South Bank University, 2021 (expected)
