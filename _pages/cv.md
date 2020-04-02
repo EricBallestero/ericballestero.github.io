@@ -34,7 +34,10 @@ Work experience
 Skills
 ======
 * I.T. / Software
-  * MS Suite, LaTeX, MATLAB, COMSOL, CATT-Acoustic, CAD tools, Unity/Unreal, 
+  * Computer languages: LaTeX, MATLAB, Python, C/C++/C#, HTML.
+  * Prediction software: COMSOL, CATT-Acoustic, ODEON
+  * CAD software: Google SketchUp, Autodesk Inventor, Blender, SolidWorks 
+  * Game Engines: Unity/Unreal
 * Acoustics
   * Architectural & Auditorium Acoustics
   * Wave Physics
