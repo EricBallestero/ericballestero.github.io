@@ -48,7 +48,7 @@ Skills
   * English <i>(fluent)<i/>
   * French <i>(Native)<i/>
   * Spanish <i>(Native)<i/>
-  * Italian <i>(Elementary<i/>
+  * Italian <i>(Elementary)<i/>
 
 Publications
 ======
