@@ -17,7 +17,7 @@ Education
 * Verified Certificate of Acknowledgement in Astrophysics, Federal Polytechnic School of Lausanne, 2015.
 * GDip in Acoustics & Noise Control, Institute of Acoustics, 2015.
 * MSc in Architectural & Environmental Acoustics, London South Bank University, 2017.
-* Ph.D in Auditorium & Physical Acoustics, London South Bank University, 2021 (expected)
+* PhD in Auditorium & Physical Acoustics, London South Bank University, 2021 (expected)
 
 Work experience
 ======
