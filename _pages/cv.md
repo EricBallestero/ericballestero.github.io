@@ -11,32 +11,41 @@ redirect_from:
 
 Education
 ======
-* HND in Sound Design and Audio Engineering, ADAMS 3IS, Bordeaux, 2012.
+* Tech. Level in Electrical Engineering, Lyce&eacute Alfred Kaslter, 2010.
+* HND in Sound Design and Audio Engineering, ADAMS 3IS, 2012.
 * Spe. Module in Building Acoustics, Conservatoire des Arts & Metiers, Paris, 2014.
+* Verified Certificate of Acknowledgement in Astrophysics, Polytechnic School of Lausanne, 2015.
 * GDip in Acoustics & Noise Control, Institute of Acoustics, 2015.
 * MSc in Architectural & Environmental Acoustics, London South Bank University, 2017.
 * Ph.D in Auditorium & Physical Acoustics, London South Bank University, 2021 (expected)
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 2016-Present: Hourly Paid Lecturer / Teaching Assistant
+  * London South Bank University
+  * Duties: Teaching assistance to laboratories for MSc/GDip students, lectures on acoustic computer modelling along with room acoustic measurements, partial project supervision for GDip/MSc students.
+  * Supervisor: Professor Stephen Dance
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Jan 2016 - Jul 2016: Assistant Engineer
+  * Sandy Brown LLP
+  * Duties: Computer modelling with CATT-Acoustic and ODEON, sound insulation assessments by measurements and predictions (INSUL), noise & vibration engineering for building acoustics.
+  * Supervisor: Richard Muir
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* I.T. / Software
+  * MS Suite, LaTeX, MATLAB, COMSOL, CATT-Acoustic, CAD tools, Unity/Unreal, 
+* Acoustics
+  * Architectural & Auditorium Acoustics
+  * Wave Physics
+  * Computer Modelling
+  * Signal Processing
+  * Psychoacoustics
+* Languages
+  * English <i>(fluent)<i/>
+  * French <i>(Native)<i/>
+  * Spanish <i>(Native)<i/>
+  * Italian <i>(Elementary<i/>
 
 Publications
 ======
