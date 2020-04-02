@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* Tech. Level in Electrical Engineering, Lyce&eacute Alfred Kaslter, 2010.
+* Tech. Level in Electrical Engineering, Lyce\'e Alfred Kaslter, 2010.
 * HND in Sound Design and Audio Engineering, ADAMS 3IS, 2012.
 * Spe. Module in Building Acoustics, Conservatoire des Arts & Metiers, Paris, 2014.
 * Verified Certificate of Acknowledgement in Astrophysics, Polytechnic School of Lausanne, 2015.
