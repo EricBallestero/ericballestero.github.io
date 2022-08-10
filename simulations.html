@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Eric Ballestero | Research</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css'>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      /* margin-left: 450px; */
+      /* margin-right: 450px; */
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+
+    .copy {
+      font-size: 12px;
+      font-family: Arial;
+      writing-mode: vertical-rl;
+      text-orientation: sideways-right;
+      transform: rotate(180deg);
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+  </style>
+</head>
+
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html">Eric Ballestero</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li class="active"><a href="research.html">Research</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="association.html">Association & Events</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="col-sm-16 text-justify"> 
+    <br>
+    <h4>Simulation of acoustic waves in complex media</h4>
+    <p>This page displays the different studies that I have been working on under the topic of simulations of acoustic waves in complex media:</p>
+    <ul class="art_menu">
+        <li><span><a href="#RLC_Filtering">Equivalent RLC Circuit Filtering for Implementing Acoustic Metamaterials in FDTD Schemes</a></span></li>
+        <li><span><a href="#SimulationArles">Geometrical Acoustic Modelling for Architectural Simulations</a></span></li>
+    </ul>
+    <hr>
+      <div class="col-sm-16 text-justify">
+        <a id="RLC_Filtering"></a><h3 style="color:rgb(170, 92, 46);">Equivalent RLC Circuit Filtering for Implementing Acoustic Metamaterials in FDTD Schemes</h3>
+        <p>Most simulations involving metamaterials often require complex physics to be solved through refined meshing grids. However, it can prove challenging 
+            to simulate the effect of local physical conditions created by said metamaterials into much wider computing sceneries due to the increased meshing load. 
+            This study thus presents     a framework for simulating complex structures with detailed geometries, such as metamaterials, into large Finite-Difference Time-Domain (FDTD) 
+            computing environments by reducing them to their equivalent surface impedance represented by a parallel-series RLC circuit. This reduction helps to simplify the physics 
+            involved as well as drastically reducing the meshing load of the model and the implicit calculation time. Here, an emphasis is made on scattering comparisons between an 
+            acoustic metamaterial and its equivalent surface impedance through analytical and numerical methods. Additionally, the problem of fitting RLC parameters to complex impedance 
+            data obtained from transfer matrix models is herein solved using a novel approach based on zero crossings of admittance phase derivatives. Despite the simplification process, 
+            the proposed framework achieves good overall results with respect to the original acoustic scatterer while ensuring relatively short simulation times over a vast range of frequencies.
+        </p>
+        <br>
+        <div class="text-center"> <figure class="text-center">
+            <img width="1000px" style="vertical-align:middle; float: center; margin: 0 0 0 0" src="assets/img/RLC_MDPI_Concept.png" alt="..." />
+            <figcaption class="text-justify" style="font-size: small;"> Conceptual diagram illustrating (a) a render of a Quadratic Residue Metadiffuser (QRM) with N = 5 slits,
+                (b) a numerical equivalent surface impedance (ZEQ) of the metadiffuser identically composed of N = 5 slits, and (c) an
+                implementation of the ZEQ into a large computational volume, e.g., an orchestra pit. </figcaption></figure>
+        </div>
+        </p>
+        <a href="https://doi.org/10.3390/app11178084" target = _blank><span class='bi bi-file-pdf' style='color: red'></span> 
+            Scattering Evaluation of Equivalent Surface Impedances of Acoustic Metamaterials in Large FDTD Volumes Using RLC Circuit Modelling,</a><br>  
+            E. Ballestero, B. Hamilton, N. Jiménez, V. Romero-García, J.-P. Groby, H. Aygün, S. Dance,<br> 
+            <i>Appl. Sci.,</i> <b>11(17)</b> 8084, 2021.
+        </p>
+        <br>
+        </figure>
+        <br>
+        <div class="text-center"> 
+            <video height="250" autoplay loop controls><source src="assets/vids/pit_top_hard.mp4" type="video/mp4" style="vertical-align:middle; float: center; margin: 0 0 0 0">
+            Your browser does not support the video tag.
+            </video> 
+            <video height="250" autoplay loop controls><source src="assets/vids/pit_top_QRDs.mp4" type="video/mp4" style="vertical-align:middle; float: center; margin: 0 0 0 0">
+            Your browser does not support the video tag.
+            </video> 
+        </div>
+        <div class="text-justify" style="font-size: small;">Comparison of waved-based simulations (via <a href="https://github.com/bsxfun/pffdtd">PFFDTD</a>) of acoustic propagation 
+            between two versions of the same orchestra pit. 
+            <b>(Top)</b> Top view of an orchestra pit with rigid boundaries. <b>(Bottom)</b> Top view of an orchestra pit with traditional sound diffusers at the boundaries.
+        <b>N.B:</b> Note how the diffusers help disribute the sound field in the orchestra pit much more rapidly than in the absence of diffusers. This usually can translate 
+            in better musical conditions for performing musicians as they sought a feeling of ensemble with respect to their own instrument's sound when palying.</div>
+
+      </div>
+    <hr>    
+  </div>
+
+      <div class="col-sm-16 text-justify">
+        <a id="SimulationArles"></a><h3 style="color:rgb(170, 92, 46);">Geometrical Acoustic Modelling for Architectural Simulations</h3>
+        <img width="350px" style="vertical-align:middle; float: right; margin: 0px 0 0px 40px" src="assets/img/Arles_RayTracing.png" alt="..." />
+        <p>Less precise than wave-based simulation techniques but generally much quicker, geometrical acoustics can be a strong tool when it comes to calculating virtually the acoustics of a place. 
+            This technique consists in assuming that the propagation of sound can be described to some extent as being similar than the one of light rays (assuming the 
+            case of very small wavelengths compared to physical obstacles), where such rays would bounce
+            on any surface like billiard balls would, losing more or less energy as they travel like so depending on the obstacles' acoustical properties. 
+        </p>
+        <p> There are two main methods for solving geometrical acoustic problems: (i) image-source and (ii) ray-tracing. The former consists in determining the shortests paths of sound 
+            propagation between a sound source and one or more receivers. This involves calculating the image-sources of the principal sound source in order to determined the angles of 
+            sound reflection at the boundaries of the space. The latter method consists in launching a relatively large number of 'rays' emanating from the source in an omnidirectional 
+            way. Then, each ray would propagate in a straight line and bounce off the bounadries. ultimately, the energy of each sound ray passing through the receiver is collected. 
+            Of course, a mix of the two methods can be used and is generally performed, giving more accurate results.
+        </p>
+        <p> The advent of parallel architectures, most notably through the use of Graphics Processing Units (GPUs), has allowed better efficiency for wave-based methods such as FEM or FDTD
+            to become more rapid in their execution. Yet, for the time being, geometrical acoustic techniques still are the quickest way to simulate large architectural spaces with relative accuracy.
+        </p>
+        <br>
+        <a href="https://www.acoustics.asn.au/conference_proceedings/AAS2019/papers/p12.pdf" target = _blank><span class='bi bi-file-pdf' style='color: red'></span> 
+            Walk through auralisation framework for virtual reality sceneries powered by game engine architectures,</a><br> 
+            D. Castro, E. Ballestero, S. Platt,<br>
+            <i>IOA Reproduced Sound</i>, Bristol, U.K., 2018.
+        <br>
+        <a href="https://www.researchgate.net/publication/317370715_HEAD-TRACKED_AURALISATIONS_FOR_A_DYNAMIC_AUDIO_EXPERIENCE_IN_VIRTUAL_REALITY_SCENERIES" target = _blank><span class='bi bi-file-pdf' style='color: red'></span> 
+            Head-Tracked Auralisations For Dynamic Audio Experience in Virtual Reality Sceneries,</a><br> 
+            E. Ballestero, P. Robinson, S. Dance,<br>
+            <i>International Congress on Sound & Vibration</i>, London, U.K., 2017.
+        </p>
+        <div class="text-left"><img width="700px" style="vertical-align:middle; float: center; margin: 20px 0 20px 40px" src="assets/img/HWH.png" alt="..." /></div>  
+  </div>
+</div>
+
+  <hr>
+
+<footer class="container-fluid text-center">
+  <span class="copy">&copy;</span> Copycenter 2022, Eric Ballestero
+</footer>
+
+</body>
+</html>

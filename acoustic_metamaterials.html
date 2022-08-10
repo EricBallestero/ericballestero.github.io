@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Eric Ballestero | Research</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css'>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      /* margin-left: 450px; */
+      /* margin-right: 450px; */
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+
+    .copy {
+      font-size: 12px;
+      font-family: Arial;
+      writing-mode: vertical-rl;
+      text-orientation: sideways-right;
+      transform: rotate(180deg);
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+  </style>
+</head>
+
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html">Eric Ballestero</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li class="active"><a href="research.html">Research</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="association.html">Association & Events</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="col-sm-16 text-justify"> 
+    <br>
+    <h4>Acoustic Metamaterials & Waves in Periodic Structures</h4>
+    <p>This page displays the different studies that I have been working on under the topic of acoustic metamaterials:</p>
+    <ul class="art_menu">
+      <li><span><a href="#PA_SlowSound">Slow Sound Metamaterials & Perfect Absorption</a></span></li>
+        <li><span><a href="#Metadiffuser">Metadiffusers : Ultra-Thin Sound Diffusers</a></span></li>
+    </ul>
+    <hr>
+
+    <div class="col-sm-16 text-justify">
+      <a id="PA_SlowSound"></a><h3 style="color:rgb(170, 92, 46);">Slow Sound Metamaterials & Perfect Absorption</h3>
+      <img width="350px" style="vertical-align:middle; float: right; margin: -20px 0px 40px 40px" src="assets/img/slit_HR-3.gif" alt="..." />
+      <p> Acoustic metamaterials are characterized by their locally resonant unit cells. A basic example of an acoustic metamaterial could consist of a duct loaded by a series of 
+          Helmholtz resonators. These act as resonant scatterers into the tube, introducing a strong dispersion relation in the system. This means that the propagation speed of the 
+          sound waves travelling in the section of the duct ruled by the resonators changes in function of the frequency, where the the wavenumber <i>k</i> would increase significantly 
+          until a band-gap is created, i.e., a range of frequencies where the real part of the wavenumber becomes null and its imaginary part increases, with a peak at the resonant frequency 
+          of the locally resonant element. This implies an absence of propagating waves aroud such frequencies despite the system being open on both sides. 
+          The more resonators in such a system, the broader the band-gap where waves cannot propagate.
+      </p>    
+      <p>Yet, before reaching this band-gap, a very interesting phenomenon can be observed. Due to the linear relation between the wavenumber and the propagation speed of the wave 
+          in the medium, when the real part of the wavenumber <i>k</i> increases before the band-gap, the propagation speed of the wave <i>c</i> would inversely decrease, up the the point 
+          where it would reach zero while in the band-gap regime. By reducing the propagating speed of sound, a parameter in the relation of the resonant frequency of the Helmholtz 
+          resonator, this also reduces the frequency at which the resonator would react. This allows to design acoustic metamaterials that effectively work for wavelengths much 
+          larger than what any traditional acoustic treatment would allow. The system is then said to work on a deep-subwavelength regime
+      </p>
+      <img width="350px" style="vertical-align:middle; float: left; margin: -20px 40px -20px -20px" src="assets/img/perfect_absorption.gif" alt="..." /><br>   
+      <p>
+        Slow sound can be used for designing deep-subwavelength treatments for acoustic absorption or sound diffusion, allowing the design of ultra-thin structures with optimal acoustic properties, 
+        with dimensions orders of magntidude thinner than their traditional counterparts.
+      </p>
+      <p> Losses are an important part of the design strategy of acoustic metamaterials. More specifically, the losses induced by the acoustic boundary layers can be 
+          exploited in order to create perfect absorbers. Here, an open lossy resonator loaded in a very thin slit is critically coupled with the outside duct, resulting 
+          in a (quasi)total absorption of sound. It can be noted that even with one resonator in the slit, the propagating sound wave inside the slit is drastically slowed when entering 
+          the slit, due to the visco-thermal losses induced by the acoustic boundary layer.
+      </p>
+      <br>
+      <br>
+      <a href="https://riunet.upv.es/handle/10251/164477" target = _blank><span class='bi bi-file-pdf' style='color: red'></span> 
+          Metamateriaux pour l'acoustique audible: Absorption parfaite et diffusion sublongueur d'onde,</a><br>  
+          V. Romero-García, V. Pagneux, J.-P. Groby, N. Jiménez, E. Ballestero,<br> 
+          <i>Acoustique & Techniques,</i> <b>94/95</b>:33-39, 2020.
+      </p>
+    </div>
+
+    <hr>
+
+      <div class="col-sm-16 text-justify">
+        <a id="Metadiffuser"></a><h3 style="color:rgb(170, 92, 46);">Metadiffusers : Ultra-Thin Sound Diffusers</h3>
+        <img width="450px" style="vertical-align:middle; float: right; margin: 20px 0 20px 40px" src="assets/img/QRDvsQRM.png" alt="..." />
+        <p>In this research topic, innovative acoustic structures for sound diffusion have been developped, called metadiffusers. Sound diffusion refers to the spreading of sound
+            when in contact with an interface. Diffuse reflection of sound is opposed to specular reflection, where the sound waves are reflected as billiard balls would on a pool table. 
+            Usually, sound diffusion is achieved through structures called acoustic diffusers, or Schroeder diffusers in honor of the pionneering works or M.R. Schroeder. 
+            Metadiffusers are ultra-thin alternatives for sound diffusion treatments, with dimensions orders of magnitude thinner than traditional strategies (10 to 20 times thinner). 
+            Metadiffusers not only exhibit high sound diffusion features but also show a stronger potential for geometrical structure optimization. 
+        </p>
+        </p>
+        <a href="https://doi.org/10.1063/5.0053413" target = _blank><span class='bi bi-file-pdf' style='color: red'></span> 
+            Metadiffusers for quasi-perfect and broadband sound diffusion,</a><br> 
+            E. Ballestero, N. Jiménez, J.-P. Groby, H. Aygün, S. Dance, V. Romero-García,<br>
+            <i>Appl. Phys. Lett.,</i> <b>119</b>, 044101, 2021.
+        </p>
+        <a href="https://riunet.upv.es/handle/10251/164477" target = _blank><span class='bi bi-file-pdf' style='color: red'></span> 
+            Metamateriaux pour l'acoustique audible: Absorption parfaite et diffusion sublongueur d'onde,</a><br>  
+            V. Romero-García, V. Pagneux, J.-P. Groby, N. Jiménez, E. Ballestero,<br> 
+            <i>Acoustique & Techniques,</i> <b>94/95</b>:33-39, 2020.
+        </p>
+        <p>
+        <a href="https://doi.org/10.1063/1.5114877" target = _blank><span class='bi bi-file-pdf' style='color: red'></span> 
+                Experimental validation of deep-subwavelength diffusion by acoustic metadiffusers,</a><br> 
+                E. Ballestero, N. Jiménez, J.-P. Groby, H. Aygün, S. Dance, V. Romero-García,<br>
+                <i>Appl. Phys. Lett., <b>115</b></i>, 081901, 2019.
+        </p>
+        <br>
+        <figure class="text-justify">
+        <img width="560px" style="vertical-align:middle; float: center; margin: 0 0 0 0" src="assets/img/pscat_zx_1500.gif" alt="..." />
+        <img width="560px" style="vertical-align:middle; float: center; margin: 0 0 0 0" src="assets/img/pscat_xy_1500.gif" alt="..." />
+        <figcaption style="font-size: small;"> Cross-section view (left) and top view (right) of the scattered acoustic pressure from a rigid plane surface and a metadiffuser when both are being radiated by an impinging
+            plane wave at normal incidence. </figcaption>
+        </figure>
+        <br>
+        <div class="text-center"> 
+        <video height="480" autoplay loop controls>
+            <source src="assets/vids/DiffusionFreq_2.mp4" type="video/mp4" style="vertical-align:middle; float: center; margin: 0 0 0 0">
+        Your browser does not support the video tag.
+        </video> 
+        </div>
+        <div class="text-justify" style="font-size: small;">Comparison between a 2D Quadratic Residue Diffuser (QRD) and a 2D Quadratic Residue Metadiffuser (QRM) botth with <i>N</i> = 5 slits,
+            both structures displayed at the top of the page. The QRM has been designed to exhibit the same diffusion as the QRD at a frequency of 2000 Hz.<br>
+        (Top left) Magnitude of the reflection coefficient along the surface of the diffuser. Being 2D diffusers the latter only varies along the <i>x</i>-axis.
+        (Top right) Phase angle of the reflection coefficient along the surface of the diffuser.
+        (Bottom right) Polar far-field scattered pressure from the diffuser. This is dependent of the magnitude and phase of the reflection coefficient.
+        (Bottom left) Normalized sound diffusion coefficient of the diffuser expressed as a spatial autocorrelation function of the scattered pressure distribution, i.e., 
+        1 means perfect diffusion or omni-directional diffusion and 0 means the diffusion reference of a radiating flat surface.<br>
+        <b>N.B:</b> For each frequency corresponds a magnitude and phase of the reflection coefficient, and thus a polar distribution of the reflected waves, ultimately summing into one number,
+        the diffusion coefficient.</div>
+
+      </div>
+    <hr>    
+  </div>
+
+</div>
+
+  <hr>
+
+<footer class="container-fluid text-center">
+  <span class="copy">&copy;</span> Copycenter 2022, Eric Ballestero
+</footer>
+
+</body>
+</html>
